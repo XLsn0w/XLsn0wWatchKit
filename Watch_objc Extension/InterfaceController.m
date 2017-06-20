@@ -28,13 +28,14 @@
 
 @implementation InterfaceController
 
-- (void)awakeWithContext:(id)context {
+- (void)awakeWithContext:(id)context {//类似viewDidLoad 只会调用一次，适合在这里添加menu菜单
     [super awakeWithContext:context];
 
     // Configure interface objects here.
 }
 
-- (void)willActivate {
+
+- (void)willActivate {//类似viewWillAppear，可能会多次调用，比如在界面首次加载完成后会调用，在menu菜单消失后就会调用
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
     
@@ -45,7 +46,7 @@
     [self.session activateSession];
 }
 
-- (void)didDeactivate {
+- (void)didDeactivate {//类似viewWillDisappear，可能会多次调用，比如在用户按下滑轮退出watch app后，在menu菜单出现前就会调用
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
 }

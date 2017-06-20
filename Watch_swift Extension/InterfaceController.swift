@@ -8,10 +8,13 @@
 
 import WatchKit
 import Foundation
+import WatchConnectivity
 
 
 class InterfaceController: WKInterfaceController {
 
+    var wcSession:WCSession?
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
