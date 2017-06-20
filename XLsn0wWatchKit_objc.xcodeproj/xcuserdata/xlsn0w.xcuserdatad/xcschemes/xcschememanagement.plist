@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Watch_objc (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Watch_objc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>XLsn0wWatchKit_objc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3576BE521EF90F70005D5F57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3576BE6E1EF91068005D5F57</key>
 		<dict>
 			<key>primary</key>
 			<true/>
